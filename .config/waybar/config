@@ -1,0 +1,19 @@
+{
+    "layer": "top",
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["custom/layout", "pulseaudio", "battery", "clock"],
+    "sway/window": {
+        "max-length": 50
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "clock": {
+        "format": "     {:%H:%M\n %d.%m.%Y}",
+        "format-alt": "   {:%H:%M:%S\n %d.%m.%Y}",
+		"interval": 1,
+		"tooltip-format": "{:%A, %B}",
+	},
+}
